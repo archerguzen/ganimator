@@ -1,0 +1,1 @@
+--lambda_gp=1 --bvh_prefix=./data/Xia --bvh_name=proud --ratio=1./5 --use_velo=0 --slerp=0 --lambda_consistency=5.0 --enforce_contact=1 --detach_label=0 --use_sigmoid=1 --contact=1 --activation=LeakyReLu --last_gen_active=None --rec_loss_type=L1 --lambda_rec=50 --kernel_size=3 --D_fact=5 --skeleton_aware=1 --gan_mode=wgan-gp --batch_norm=0 --repr=repr6d --padding_mode=reflect
