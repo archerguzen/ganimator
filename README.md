@@ -1,3 +1,18 @@
+Using from Colab:
+
+~~~
+!git clone https://github.com/sinansonlu/ganimator.git
+%cd ganimator/
+!pip install GPUtil
+!pip install py-cpuinfo
+
+# to generate using saved model
+!python demo.py --save_path=./pre-trained/salsa-dancing
+
+# to train from bvh in folder
+!python train.py --bvh_prefix=./data/Wave-BVH --bvh_name=1 --save_path=test-1 --device=cuda:0 --num_iters=15000
+~~~
+
 # GANimator: Neural Motion Synthesis from a Single Sequence
 
 ![Python](https://img.shields.io/badge/Python->=3.8-Blue?logo=python)  ![Pytorch](https://img.shields.io/badge/PyTorch->=1.10.0-Red?logo=pytorch)
