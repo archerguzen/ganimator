@@ -1,0 +1,1 @@
+--bvh_prefix=./data/Wave-BVH --bvh_name=1 --save_path=full-1 --device=cuda:0
