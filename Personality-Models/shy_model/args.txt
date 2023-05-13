@@ -1,0 +1,1 @@
+--bvh_prefix=./data/personality --bvh_name=çekingen_editted --save_path=shy_model --device=cuda:0

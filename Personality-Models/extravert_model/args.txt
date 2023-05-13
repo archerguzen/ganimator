@@ -1,0 +1,1 @@
+--bvh_prefix=./data/personality --bvh_name=dışa_dönük_editted --save_path=extravert_model --device=cuda:0
