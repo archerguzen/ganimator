@@ -1,0 +1,1 @@
+--bvh_prefix=./data/personality --bvh_name=öfkeli_editted_new --save_path=./Personality-Models/angry_model_new_2 --device=cuda:0 --num_iters=12000
